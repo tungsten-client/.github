@@ -1,0 +1,25 @@
+name: ✨ Feature Request
+description: Suggest an change to the project
+title: "[FEATURE REQUEST]: "
+labels: ["enhancement"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please make sure there aren't already any open/closed feature requests or PRs for your suggestion.
+        If you find an existing issue or PR, please add a comment to it instead of creating a new one.
+    
+    - type: textarea
+      id: description
+      attributes:
+        label: Description
+        description: A clear and concise description of what the feature is.
+      validations:
+        required: true
+    
+    - type: textarea
+      id: additional-context
+      attributes:
+        label: Additional context
+        description: Add any other context or info about the feature request here.
