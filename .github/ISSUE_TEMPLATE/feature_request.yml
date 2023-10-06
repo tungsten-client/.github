@@ -4,11 +4,11 @@ title: "[FEATURE REQUEST]: "
 labels: ["enhancement"]
 
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Please make sure there aren't already any open/closed feature requests or PRs for your suggestion.
-        If you find an existing issue or PR, please add a comment to it instead of creating a new one.
+    - type: markdown
+      attributes:
+        value: |
+          Please make sure there aren't already any open/closed feature requests or PRs for your suggestion.
+          If you find an existing issue or PR, please add a comment to it instead of creating a new one.
     
     - type: textarea
       id: description
